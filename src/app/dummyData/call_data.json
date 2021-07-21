@@ -1,0 +1,28 @@
+{
+    "calls": [
+        {
+            "callId": 1,
+            "agentId": 1,
+            "customerId": 1,
+            "Date": "1/13/2020"
+        },
+        {
+            "callId": 2,
+            "agentId": 1,
+            "customerId": 3,
+            "Date": "1/13/2020"
+        },
+        {
+            "callId": 3,
+            "agentId": 3,
+            "customerId": 2,
+            "Date": "1/13/2020"
+        },
+        {
+            "callId": 4,
+            "agentId": 2,
+            "customerId": 4,
+            "Date": "1/13/2020"
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "agents": [
+        {
+            "agentId": 1,
+            "admin": true,
+            "userName": "eman",
+            "password": "eman123"
+        },
+        {
+            "agentId": 2,
+            "admin": false,
+            "userName": "ahmed",
+            "password": "ahmed123"
+        },
+        {
+            "agentId": 3,
+            "admin": false,
+            "userName": "ali",
+            "password": "ali1234"
+        },
+        {
+            "agentId": 4,
+            "admin": false,
+            "userName": "alia",
+            "password": "alia12345"
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "customers": [
+        {
+            "agentId":1,
+            "customerId": 1,
+            "customerName": "Khaled",
+            "phoneNumber": "0102344"
+        },
+        {
+            "agentId":1,
+            "customerId": 2,
+            "customerName": "mohammed",
+            "phoneNumber": "0104678"
+        },
+        {
+            "agentId":1,
+            "customerId": 3,
+            "customerName": "ali",
+            "phoneNumber": "0103478"
+        },
+        {
+            "agentId":2,
+            "customerId": 4,
+            "customerName": "alia",
+            "phoneNumber": "0103464"
+        }
+    ]
+}

@@ -1,0 +1,54 @@
+<div class="container mt-5">
+    <div>
+        <div class="float-right my-4"><button class="btn btn-success">+</button></div>
+        <table class="table table-striped">
+
+            <thead>
+                <tr>
+                    <th>CustomerName</th>
+                    <th>Phone</th>
+                    <th>calls</th>
+                    <th>AddCalls</th>
+
+                </tr>
+            </thead>
+            <tbody>
+                <ng-container *ngFor=" let item of customers ">
+                    <tr>
+                        <td>{{item.customerName}}</td>
+                        <td>{{item.phoneNumber}}</td>
+                        <td (click)="opentable=!opentable"><button (click)=" showCalls(item.customerId)"
+                                (click)="open(content)">show</button>
+                        </td>
+                        <td><button>AddCall</button></td>
+
+
+
+                    </tr>
+
+
+
+                    <ng-template let-c="close" #content let-d="dismiss">
+                        <div class="modal-header " *ngFor="let call of calls">
+                            <h4 class="modal-title" id="modal-basic-title">call Date: {{call.Date}}</h4>
+                            <button type="button" class="close" aria-label="Close" (click)="d('Cross click')">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <p>{{item.customerName}}</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-outline-dark" (click)="c('Save click')">OK</button>
+                        </div>
+
+                    </ng-template>
+
+
+
+                </ng-container>
+            </tbody>
+
+        </table>
+
+    </div>
